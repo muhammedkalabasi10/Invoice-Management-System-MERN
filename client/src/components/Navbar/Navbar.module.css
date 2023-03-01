@@ -1,0 +1,113 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&family=Roboto&display=swap');
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 5rem;
+    height:100%;
+    transition: width 600ms ease;
+    background-color: #23232e;
+    color: #8a8a8d;
+    z-index: 100;
+}
+
+.navbar:hover{
+    width: 16rem;
+}
+
+.logo{
+    font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #141418;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.2ch;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 3.8rem;
+    align-items: center;
+}
+
+.logo i{
+    transform: rotate(0deg);
+    transition: 350ms linear;
+}
+
+.navbar:hover .logo i{
+    transform: rotate(-180deg);
+    margin-left: 11rem;
+}
+
+.logo a{
+    margin-left: 1.5rem;
+    position: absolute;
+    left: -15ch;
+    transition: 400ms ease-in;
+}
+
+.navbar:hover .logo a{
+    left: 0ch;
+}
+
+.navbar:hover .navlink{
+    opacity: 1;
+}
+
+.navlink{
+    display: flex;
+    height: 3.8rem;
+    opacity: 0;
+    transition: opacity 50ms linear 150ms;
+}
+
+.navitem{
+    align-items: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+
+}
+
+li{
+    display: flex;
+    transition: 200ms linear;
+}
+
+li:hover{
+    color: aliceblue;
+    background-color: #141418;
+}
+
+a{
+    align-items: center;
+    text-decoration: none;
+}
+
+i{
+    font-size: 1.5rem;
+    margin: 0 1.5rem;
+}
+
+.profile{
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+}
+
+.navbar ul li ul{
+    width: 100%;
+    display: none;
+    position: absolute;
+}
+
+.navbar ul li:hover ul{
+    display: block;
+    bottom: 6ch;
+}
