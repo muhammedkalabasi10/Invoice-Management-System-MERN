@@ -66,8 +66,54 @@ export const deleteInvoice = async (req, res) => {
   }
 };
 
+
+
+
 export const sendEmail = async (req, res) => {
-    const {receiverEmail}=await req.body
+    const {invoice,receiverEmail}=await req.body
+    let message=await (`<html><body>
+      <h3>Client</h3>
+      <p>${invoice.client.name}, ${invoice.client.phone}, ${invoice.client.address}</p>
+      <h3>Due Date</h3>
+      <p>${invoice.dueDate}</p>
+      <table><tr>
+      <th>No</th>
+      <th>Product Name</th>
+      <th>Product Photo</th>
+      <th>Quantity</th>
+      <th>Unit</th>
+      <th>Tax</th>
+      <th>Price</th>
+      <th>Discount(%)</th>
+      <th>Total Price</th></tr>`)
+      message+=await invoice.items.map((item,index)=>{return
+        `<tr>
+        <td>${index+1}</td>
+        <td>${item.itemName}</td>
+        <td><img
+                        src=${item.selectedFiles}
+                        alt=""
+                        width="150"
+                        height="100"
+                        value=${item.selectedFiles}
+                      /></td>
+        <td>${item?.quantity}</td>
+        <td>${item?.unit}</td>
+                    <td>%${item?.tax.taxname}</td>
+                    <td>${item?.unitPrice}</td>
+                    <td>%${item?.discount}</td>
+                    <td>
+                      ${(
+                        item.unitPrice *
+                        item.quantity *
+                        ((100 + item.tax.taxvalue) / 100) *
+                        ((100 - item.discount) / 100)
+                      ).toFixed(2)}
+                    </td>
+        </tr>`
+                      })
+      message+=await `</table></body></html>`
+      console.log(message)
   const transporter = await nodemailer.createTransport({
     service:process.env.EMAIL_SERVICE,
     secure:false,
@@ -84,7 +130,7 @@ export const sendEmail = async (req, res) => {
         to:`${receiverEmail}`,
         subject:"Invoice",
         text:"Invoice Text",
-        html: '<p>This is e-mail sample</p>'
+        html: message
   },(error,info)=>{
     if(error) console.log(error)
     else console.log(info)
