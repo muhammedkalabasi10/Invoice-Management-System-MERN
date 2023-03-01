@@ -14,7 +14,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul></li>
     <li><a href="#🚀features">Features</a></li>
-    <li><a href="#🚀some-pictures-from-the-projects">Features</a></li>
+    <li><a href="#some-pictures-from-the-projects">Some Pictures of the Project</a></li>
     <li><a href="#📬contact">Contact</a></li>
 </ol>
 </details>
