@@ -48,8 +48,8 @@ This projects aim is facilitate management invoice, products and clients. You ca
 
 #### Deployed On:
 
-- <img src="https://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/89884/render-logo-dark3.png" alt="Render" width="200" title="Render">
-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Netlify_logo.svg/2560px-Netlify_logo.svg.png" alt="Netlify" width="100" title="Netlify">
+- Render
+- Netlify
   </br>
 
 ---
