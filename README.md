@@ -29,21 +29,21 @@ This projects aim is facilitate management invoice, products and clients. You ca
 
 #### Frontend:
 
-- [![React][react.js]][react-url]
-- [![React Router][react-router]][react-router-dom]
-- [![Redux][redux-img]][redux-toolkit]
-- [![Material UI][material-ui]][mui]
-- <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap" width="50" title="Bootstrap">
+- React.js
+- React Router
+- Redux
+- Material UI
+- Bootstrap
   </br>
 
 #### Backend:
 
-- [![Nodejs][node.js]][nodejs-url]
-- [![Expressjs][express.js]][expressjs-url]
-- [![Mongodb][mongodb]][mongodb-url]
-- [![JWT][jwt-img]][jwt-url]
-- <img src="https://nodemailer.com/nm_logo_200x136.png" alt="Nodemailer" width="80" title="Nodemailer">
-- <img src="https://repository-images.githubusercontent.com/2518028/adb2df00-9431-11e9-9ccd-26f012b80f29" alt="Express Validator" width="100" title="Express Validator">
+- Node.js
+- Express.js
+- MongoDB
+- JWT
+- Nodemailer
+- Express Validator
   </br>
 
 #### Deployed On:
@@ -122,23 +122,4 @@ This projects aim is facilitate management invoice, products and clients. You ca
 ### 📬Contact
 
 - Project Link: https://github.com/muhammedkalabasi10/Invoice-Management-System-MERN
-- Linkedin: https://www.linkedin.com/in/muhammed-kalaba%C5%9F%C4%B1-116287248/
-
-<!-- LINKS & IMAGES -->
-
-[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[react-url]: https://reactjs.org/
-[react-router]: https://camo.githubusercontent.com/4f9d20f3a284d2f6634282f61f82a62e99ee9906537dc9859decfdc9efbb51ec/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163745f526f757465722d4341343234353f7374796c653d666f722d7468652d6261646765266c6f676f3d72656163742d726f75746572266c6f676f436f6c6f723d7768697465
-[react-router-dom]: https://reactrouter.com/en/main
-[redux-img]: https://camo.githubusercontent.com/6908bc5919e46cd787b8e5117f092f5ed37da82e8bd602e6339060ea0fff722c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656475782d3539334438383f7374796c653d666f722d7468652d6261646765266c6f676f3d7265647578266c6f676f436f6c6f723d7768697465
-[redux-toolkit]: https://redux-toolkit.js.org/
-[material-ui]: https://camo.githubusercontent.com/2c2e3cab0541596a12e216df86e68fa554256f25826b55a068993a3edfbcd0e8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6174657269616c2d2d55492d3030383143423f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6174657269616c2d7569266c6f676f436f6c6f723d7768697465
-[mui]: https://mui.com/
-[node.js]: https://camo.githubusercontent.com/dfc69d704694f22168bea3d84584663777fa5301dcad5bbcb5459b336da8d554/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3433383533443f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465
-[nodejs-url]: https://nodejs.org/en/
-[express.js]: https://camo.githubusercontent.com/7f73136d92799b19be179d1ed87b461120c35ed917c7d5ab59a7606209da7bd3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f457870726573732e6a732d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d65787072657373266c6f676f436f6c6f723d7768697465
-[expressjs-url]: https://expressjs.com/
-[mongodb]: https://camo.githubusercontent.com/72e92f69f36703548704a9eeda2a9889c2756b5e08f01a9aec6e658c148d014e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6f6e676f44422d3445413934423f7374796c653d666f722d7468652d6261646765266c6f676f3d6d6f6e676f6462266c6f676f436f6c6f723d7768697465
-[mongodb-url]: https://www.mongodb.com/
-[jwt-img]: https://camo.githubusercontent.com/92407fc26e09271d8137b8aaf1585b266f04046b96f1564dfe5a69f146e21301/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a57542d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d4a534f4e253230776562253230746f6b656e73266c6f676f436f6c6f723d7768697465
-[jwt-url]: https://jwt.io/
+- Linkedin: https://www.linkedin.com/in/muhammedkalabasi/
