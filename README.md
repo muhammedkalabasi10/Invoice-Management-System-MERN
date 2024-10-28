@@ -5,7 +5,7 @@
 
 <a href="#about-the-project">About the Project</a>
 <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#🖥️built-with">Built With</a></li>
       </ul>
 </li>
 <li><a href="#getting-started">Getting Started</a>
@@ -13,7 +13,7 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul></li>
-    <li><a href="#features">Features</a></li>
+    <li><a href="#🚀features">Features</a></li>
     <li><a href="#some-pictures-from-the-project">Some Pictures of the Project</a></li>
     <li><a href="#📬contact">Contact</a></li>
 </ol>
@@ -23,7 +23,7 @@
 
 This projects aim is facilitate management invoice, products and clients. You can sign up and login with email verification. With this account add-update-delete client, add-update-delete product and add-delete-download-send email invoice.
 
-### Built With
+### 🖥️Built With
 
 ---
 
@@ -92,7 +92,7 @@ This projects aim is facilitate management invoice, products and clients. You ca
    EMAIL_PASSWORD =your password of email address
    ```
 
-### Features
+### 🚀Features
 
 - Login/Signup User Account
 - Signup using email verification
